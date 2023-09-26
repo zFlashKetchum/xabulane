@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ano idade</title>
+</head>
+<body>
+    <script>
+        let pessoa1 = prompt("Digite seu nome")
+        let ano1 = parseInt(prompt("Digite seu ano de nascimento"))
+        let pessoa2 = prompt("Digite seu nome")
+        let ano2 = parseInt(prompt("Digite seu ano de nascimento"))
+
+        let idadePessoa1 = 2023 - ano1
+        let idadePessoa2 = 2023 - ano2
+
+        if (idadePessoa1 > idadePessoa2)
+            exibe = pessoa2 + " é a mais novo(a)"
+        else
+            exibe =  pessoa1 + " é a mais novo(a)"
+
+        document.body.innerHTML = pessoa1 + " tem " + idadePessoa1 + " e " + pessoa2 + " tem " + idadePessoa2 + " , " +  exibe;
+    </script>
+</body>
+</html>
